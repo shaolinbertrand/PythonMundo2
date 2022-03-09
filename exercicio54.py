@@ -1,7 +1,9 @@
+from datetime import date
+atual = date.today().year
 ma = me = 0
 for i in range(7):
     x = int(input("digite o ano de nascimento: "))
-    if (2022-x > 20):
+    if (atual-x > 20):
         ma = ma+1
     else:
         me = me+1

@@ -1,7 +1,7 @@
 ma = 0
 me = 9999
 for i in range(5):
-    x=int(input("digite o peso: "))
+    x=float(input("digite o peso: "))
     if x > ma:
         ma = x
     if x<me:
