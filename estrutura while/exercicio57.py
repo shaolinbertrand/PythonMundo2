@@ -1,4 +1,4 @@
 s = 'o'
-while s != ('M' or 'F'):
-    s = input('Entre com o sexo digite  M ou F: ').upper()
+while s not in 'MF':
+    s = input('Entre com o sexo digite  M ou F: ').strip().upper()
 print('Sexo aceito')

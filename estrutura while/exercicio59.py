@@ -21,4 +21,5 @@ while(o != 5):
     elif(o==4):
         x = int(input('Digite o primeiro valor: '))
         y = int(input('Digite o segundo valor: '))
+    print("=============================")
 print('fim')

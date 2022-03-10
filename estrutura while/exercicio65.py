@@ -1,13 +1,6 @@
 a = int(input('Digite um valor: '))
-b = int(input('Digite mais um valor: '))
 x = 1
-soma = a+b
-if a > b:
-    maior = a
-    menor = b
-else:
-    maior = b
-    menor = a
+soma = maior = menor = a
 cmedia = 2
 while x != 0:
     print('Quantos numeros você deseja continuar digitando')

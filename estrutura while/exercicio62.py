@@ -1,6 +1,6 @@
 p = int(input('Digite o primeiro termo: '))
 r = int(input('Digite a razao: '))
-v = f = int(input('Digite quantos termos você deseja ver: '))
+v = f = 10
 i = 1
 
 while v!=0:
