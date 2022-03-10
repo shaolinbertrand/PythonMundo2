@@ -18,3 +18,7 @@ while(o != 5):
             print('{} > {}'.format(x,y))
         else:
             print('{} > {}'.format(y,x))
+    elif(o==4):
+        x = int(input('Digite o primeiro valor: '))
+        y = int(input('Digite o segundo valor: '))
+print('fim')
