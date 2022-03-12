@@ -1,4 +1,4 @@
-o = c50 = c20 = c10 = c5 = r = 0
+o = c50 = c20 = c10 = r = 0
 while True:
     o = int(input('Quanto voce deseja sacar? '))
     r = o
@@ -11,10 +11,7 @@ while True:
     while r > 10:
         c10 += 1
         r = r - 10
-    while r >= 5:
-        c5 += 1
-        r = r - 5
-    if r < 5:
+    if r < 10:
         break
 print(f'Para o valor de R$ {o}')
 if c50 >0:
@@ -23,8 +20,6 @@ if c20>0:
     print(f'Foram emitidas {c20} cedulas de R$ 20')
 if c10>0:
     print(f'Foram emitidas {c10} cedulas de R$ 10')
-if c5>0:
-    print(f'Foram emitidas {c5} cedulas de R$ 5')
 if r>0:
     print(f'Foram emitidas {r} cedulas de R$ 1')
     
